@@ -1,0 +1,12 @@
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\bin\Debug\net7.0\Meetup.Auth.Common.deps.json
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\bin\Debug\net7.0\Meetup.Auth.Common.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\bin\Debug\net7.0\Meetup.Auth.Common.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\obj\Debug\net7.0\Meetup.Auth.Common.csproj.AssemblyReference.cache
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\obj\Debug\net7.0\Meetup.Auth.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\obj\Debug\net7.0\Meetup.Auth.Common.AssemblyInfoInputs.cache
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\obj\Debug\net7.0\Meetup.Auth.Common.AssemblyInfo.cs
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\obj\Debug\net7.0\Meetup.Auth.Common.csproj.CoreCompileInputs.cache
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\obj\Debug\net7.0\Meetup.Auth.Common.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\obj\Debug\net7.0\refint\Meetup.Auth.Common.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\obj\Debug\net7.0\Meetup.Auth.Common.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Auth.Common\obj\Debug\net7.0\ref\Meetup.Auth.Common.dll

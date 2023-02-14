@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Meetup.Login.Api.props" />
+</Project>
