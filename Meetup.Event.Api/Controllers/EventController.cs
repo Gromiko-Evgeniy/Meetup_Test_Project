@@ -1,5 +1,5 @@
-﻿using Meetup.Event.Api.DTOs.EventDTOs;
-using Meetup.Event.Api.Interfaces;
+﻿using Meetup.Event.Domain.DTOs.EventDTOs;
+using Meetup.Event.Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

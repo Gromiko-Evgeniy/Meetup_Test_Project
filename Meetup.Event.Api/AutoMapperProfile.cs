@@ -1,7 +1,6 @@
 ﻿
 using AutoMapper;
-using Meetup.Event.Api.DTOs.EventDTOs;
-using Meetup.Event.Api.Entities;
+using Meetup.Event.Domain.DTOs.EventDTOs;
 
 namespace Meetup.Event.Api
 {
@@ -9,11 +8,8 @@ namespace Meetup.Event.Api
     {
         public AutoMapperProfile()
         {
-            CreateMap<GetEventDTO, Entities.Event>();
-            CreateMap<AddEventDto, Entities.Event>();
-            CreateMap<UpdateEventDto, Entities.Event>();
-
-            CreateMap<Entities.Event, GetEventDTO>();
+            CreateMap<AddEventDto, Domain.Entities.Event>();
+            CreateMap<UpdateEventDto, Domain.Entities.Event>();
         }
     }
 }

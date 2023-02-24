@@ -77,5 +77,11 @@ D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\obj\Debug\net7.0\Meetup.Event.A
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\obj\Debug\net7.0\Meetup.Event.Api.genruntimeconfig.cache
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\obj\Debug\net7.0\ref\Meetup.Event.Api.dll
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Auth.Common.dll
-D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Auth.Common.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Event.Application.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Event.Domain.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Event.Infrastructure.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Event.Application.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Event.Infrastructure.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Event.Domain.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Common.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Event.Api\bin\Debug\net7.0\Meetup.Common.pdb

@@ -1,8 +1,8 @@
-﻿using Meetup.Login.Api.DTOs.UserDTOs;
-using Meetup.Login.Api.Interfaces;
-using Meetup.Login.Api.Services;
+﻿using Meetup.Login.Domain.DTOs.UserDTOs;
+using Meetup.Login.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Authorization;
+using Meetup.Login.Domain.Entities;
 
 namespace Meetup.API.Controllers
 {
@@ -11,19 +11,53 @@ namespace Meetup.API.Controllers
     public class LoginController : ControllerBase
     {
         private ILoginService service;
-        public LoginController(ILoginService service)
+        private IEncryptionService encryption;
+
+        public LoginController(ILoginService service, IEncryptionService encryption)
         {
             this.service = service;
+            this.encryption = encryption;
         }
 
         [HttpPost]
+        [Route("/Login")]
         public async Task<IActionResult> Login(LoginData data)
         {
+            data.Password = encryption.HashPassword(data.Password);
             var token = await service.GetToken(data);
 
             if (token is null) return Unauthorized();
 
             return Ok(new { access_token = token });
         }
+
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> GetAllUsers() =>
+            Ok(await service.GetAllUsers());
+
+        [HttpGet("{id}")]
+        [Authorize]
+        public async Task<IActionResult> GetSingleUser(int id) =>
+            Ok(await service.GetUserById(id));
+
+        [HttpPost]
+        [Route("/Register")]
+        public async Task<IActionResult> RegisterUser(AddUserDto user)
+        {
+            user.Password = encryption.HashPassword(user.Password);
+            return Ok(await service.RegisterUser(user));
+        }
+            
+
+        [HttpPut]
+        [Authorize]
+        public async Task<IActionResult> UpdateUser(UpdateUserDto newEvent) =>
+            Ok(await service.UpdateUser(newEvent));
+
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeleteEvent(int id) =>
+            Ok(await service.DeleteUser(id));
     }
 }

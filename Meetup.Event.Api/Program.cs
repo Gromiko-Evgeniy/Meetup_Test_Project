@@ -1,14 +1,17 @@
-using Meetup.Event.Api.Interfaces;
+using Meetup.Event.Application.Interfaces;
 using Meetup.Event.Api.Services;
-using Meetup.Auth.Common;
-using Meetup.Event.Api.Data;
+using Meetup.Common;
+using Meetup.Event.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<DataContext>();
+builder.Services.AddDbContext<DataContext>(
+    opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+    b => b.MigrationsAssembly(builder.Configuration.GetSection("MigrationsAssembly").Get<string>())));
+
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 builder.Services.AddTransient<IEventService, EventService>();
@@ -49,9 +52,12 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-using var scope = app.Services.CreateScope();
-DataContext context = scope.ServiceProvider.GetRequiredService<DataContext>();
-await DbInitializer.SeedData(context);
+if (app.Environment.IsDevelopment())
+{
+    using var scope = app.Services.CreateScope();
+    DataContext context = scope.ServiceProvider.GetRequiredService<DataContext>();
+    await DbInitializer.SeedData(context);
+}
 
 app.MapControllers();
 

@@ -1,7 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace Meetup.Auth.Common
+namespace Meetup.Common
 {
     public class AuthOptions
     {

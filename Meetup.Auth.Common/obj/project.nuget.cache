@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2zG5gy6yWjd//cbwvM/aFLVRT7s3hHCUxHvAU8iKsPU9nWOrOwFCt5CBGDsSmUT4HExjjpxoOZbWEtlVOWrp3w==",
+  "dgSpecHash": "Y1UW8f5vL2Nu+1UH6NakhEAFnCD8aPe7Fi2+3hnY9ikvOvtqmSjxCwVDQhoFN3AmpgL77jjNt60SfTcF/nYWaw==",
   "success": true,
-  "projectFilePath": "D:\\Study\\C#\\asp.net\\Apps\\Meetup\\Meetup.Auth.Common\\Meetup.Auth.Common.csproj",
+  "projectFilePath": "D:\\Study\\C#\\asp.net\\Apps\\Meetup\\Meetup.Auth.Common\\Meetup.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egrom\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.2\\microsoft.aspnetcore.authentication.jwtbearer.7.0.2.nupkg.sha512",
     "C:\\Users\\egrom\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

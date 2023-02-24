@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Meetup.Auth.Common\Meetup.Common.csproj" />
+    <ProjectReference Include="..\Meetup.Event.Domain\Meetup.Event.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

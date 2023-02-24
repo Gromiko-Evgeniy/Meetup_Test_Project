@@ -421,9 +421,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\C#\\asp.net\\Apps\\Meetup\\Meetup.Auth.Common\\Meetup.Auth.Common.csproj",
-      "projectName": "Meetup.Auth.Common",
-      "projectPath": "D:\\Study\\C#\\asp.net\\Apps\\Meetup\\Meetup.Auth.Common\\Meetup.Auth.Common.csproj",
+      "projectUniqueName": "D:\\Study\\C#\\asp.net\\Apps\\Meetup\\Meetup.Auth.Common\\Meetup.Common.csproj",
+      "projectName": "Meetup.Common",
+      "projectPath": "D:\\Study\\C#\\asp.net\\Apps\\Meetup\\Meetup.Auth.Common\\Meetup.Common.csproj",
       "packagesPath": "C:\\Users\\egrom\\.nuget\\packages\\",
       "outputPath": "D:\\Study\\C#\\asp.net\\Apps\\Meetup\\Meetup.Auth.Common\\obj\\",
       "projectStyle": "PackageReference",

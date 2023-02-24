@@ -24,8 +24,6 @@ D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Swashbuckle.As
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Auth.Common.dll
-D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Auth.Common.pdb
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\obj\Debug\net7.0\staticwebassets\msbuild.Meetup.Login.Api.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.Meetup.Login.Api.props
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Meetup.Login.Api.props
@@ -77,3 +75,13 @@ D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\runtimes\win\l
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Login.Application.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Login.Domain.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Login.Infrastructure.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Login.Application.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Login.Infrastructure.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Login.Domain.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Common.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\Meetup.Common.pdb
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\AutoMapper.dll
+D:\Study\C#\asp.net\Apps\Meetup\Meetup.Login.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
